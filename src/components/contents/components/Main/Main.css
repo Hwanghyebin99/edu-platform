@@ -1,0 +1,7 @@
+.main-section {
+    min-height: 800px;
+}
+
+.card-container {
+    display: flex;
+}
