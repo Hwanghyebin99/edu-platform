@@ -1,0 +1,17 @@
+th {
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.modal-body-container {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.modal-body-container table {
+    margin: auto;
+}
+
+.modal-body-container button {
+    margin-top: 20px;
+}
