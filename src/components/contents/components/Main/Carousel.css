@@ -1,0 +1,9 @@
+.slider-container div {
+    height: 450px;
+    background: linear-gradient(to right, rgb(87, 119, 206), rgb(112, 176, 196));
+    color: #ffffff;
+}
+
+.slider-container h1 {
+    margin: 20px;
+}
