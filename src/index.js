@@ -1,17 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import { Provider } from "react-redux";
+import { applyMiddleware, createStore } from "redux";
+import promiseMiddleware from "redux-promise";
+import reduxThunk from "redux-thunk";
+import reducer from "./reducers";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const createStoreWithMiddleware = applyMiddleware(
+  promiseMiddleware,
+  reduxThunk
+)(createStore);
+
+// const render = () => {
+  ReactDOM.render(
+    <Provider store={createStoreWithMiddleware(reducer,window.__REDUX_DEVTOOLS_EXTENSION__ &&
+      window.__REDUX_DEVTOOLS_EXTENSION__())}>
+      {/* <div> */}
+        <App />
+      {/* </div> */}
+    </Provider>
+    ,
+    document.getElementById('root'));
+//   )
+// };
+// 
+// render();
