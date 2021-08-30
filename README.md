@@ -1,9 +1,8 @@
 # Education Platform
 > 간단한 교육 플랫폼 웹 페이지 입니다.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+![npm](https://img.shields.io/npm/v/npm)
+
 
 React와 Express를 이용하여 만든 간단한 웹 어플리케이션입니다.
 
@@ -16,6 +15,7 @@ React와 Express를 이용하여 만든 간단한 웹 어플리케이션입니�
 ## Overview
 
 ![header](https://user-images.githubusercontent.com/43427200/131356172-8896705f-432e-4cf8-abf0-15a1cf29872a.png)
+![localhost_8089_ (1)](https://user-images.githubusercontent.com/43427200/131356390-ea8404bc-2182-4ee3-b1bb-29f458fe4561.png)
 
 ## Getting Started
 
