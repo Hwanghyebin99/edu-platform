@@ -1,5 +1,6 @@
 # Education Platform
 > 간단한 교육 플랫폼 웹 페이지 입니다.
+
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
