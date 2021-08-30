@@ -7,9 +7,17 @@
 
 React와 Express를 이용하여 만든 간단한 웹 어플리케이션입니다.
 
+## Index
+  - [Overview](#overview) 
+  - [Getting Started](#getting-started)
+  - [Authors](#authors)
+  - [License](#license)
+
+## Overview
+
 ![](../header.png)
 
-## 실행 방법
+## Getting Started
 
 In the project directory, you can run:
 
@@ -25,3 +33,13 @@ npm run start:server
 ```sh
 npm run build
 ```
+
+## Authors
+  - [Hwanghyebin99](https://github.com/Hwanghyebin99) - **Hyebeen Hwang** - <hyebeen.hwang.99@gmail.com>
+
+## License
+
+```
+MIT License
+
+Copyright (c) 2020 always0ne
