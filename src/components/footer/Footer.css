@@ -1,0 +1,26 @@
+.footer-upper {
+    height: 50px;
+    width: 100%;
+    background-color: #d9dbe1;
+}
+
+.footer-under {
+    height: 100px;
+    width: 100%;
+    background-color: #eaebee;
+    position: relative;
+}
+
+.footer-location {
+    color: #000036;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin: 10px 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+.logo-img {
+    width: 100px;
+    margin-left: 40px;
+}
