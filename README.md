@@ -15,7 +15,7 @@ React와 Express를 이용하여 만든 간단한 웹 어플리케이션입니�
 
 ## Overview
 
-![](../header.png)
+![header](https://user-images.githubusercontent.com/43427200/131356172-8896705f-432e-4cf8-abf0-15a1cf29872a.png)
 
 ## Getting Started
 
