@@ -4,14 +4,16 @@ import './Card.css'
 class Card extends Component {
   static defaultProps = {
     info: {
-      name: '이름',
-      phone: '010-0000-0000',
+      title: 'React Native',
+      imgSrc: '',
+      alt: '',
+      description: '',
       id: 0
     }
   }
   render() {
     const {
-      name, phone, id
+      title, imgSrc, alt, description, id
     } = this.props.info;
 
     return (
@@ -20,8 +22,11 @@ class Card extends Component {
               <h2>contents</h2>
           </div>
           <div className="card-body">
-              <p>{name}</p>
-              <p>{phone}</p>
+              <div className="image-wrapper">
+                <img src={imgSrc} alt={alt}></img>
+              </div>
+              <h3>{title}</h3>
+              <p>{description}</p>
           </div>
       </div>
     );

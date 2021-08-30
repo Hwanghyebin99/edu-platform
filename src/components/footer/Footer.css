@@ -8,6 +8,7 @@
     height: 100px;
     width: 100%;
     background-color: #eaebee;
+    position: relative;
 }
 
 .footer-location {
@@ -15,6 +16,8 @@
     letter-spacing: 0;
     line-height: 25px;
     margin: 10px 40px;
+    position: absolute;
+    bottom: 0;
 }
 
 .logo-img {

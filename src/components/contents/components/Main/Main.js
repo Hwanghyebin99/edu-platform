@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Card from './Card';
 import Carousel from './Carousel';
 import './Main.css';
-import axios from "axios";
+import developImage from '../../../../assets/images/software-developer.jpg';
+import codeImage from '../../../../assets/images/code.jpg';
+import dockerImage from '../../../../assets/images/docker-logo-1024x597.png';
 import { withRouter } from "react-router-dom";
 
 class Main extends Component {
@@ -13,13 +15,24 @@ class Main extends Component {
     information: [
       {
         id: 0,
-        name: '김민준',
-        phone: '010-0000-0000'
+        title: 'React JS',
+        imgSrc: developImage,
+        alt: 'developer image',
+        description: '한달만에 배우는 리액트'
       },
       {
         id: 1,
-        name: '홍길동',
-        phone: '010-0000-0001'
+        title: 'Express',
+        imgSrc: codeImage,
+        alt: 'code image',
+        description: '[Node.js]서버 쉽게 구축하기'
+      },
+      {
+        id: 1,
+        title: 'Docker',
+        imgSrc: dockerImage,
+        alt: 'docker image',
+        description: 'Docker는 무엇일까'
       }
     ]
   }
