@@ -31,6 +31,10 @@ React와 Express를 이용하여 만든 간단한 웹 어플리케이션입니�
 
 ## Getting Started
 
+### Install
+```sh
+npm install
+```
 In the project directory, you can run:
 
 ### Run Client
